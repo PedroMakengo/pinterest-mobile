@@ -44,9 +44,9 @@ export default function TabLayout() {
       <Tabs.Screen
         name="profile"
         options={{
-          tabBarIcon: () => (
+          tabBarIcon: ({ color }) => (
             <Avatar
-              selected
+              selected={color === theme.colors.white}
               source={{ uri: 'https://github.com/pedromakengo.png' }}
             />
           ),

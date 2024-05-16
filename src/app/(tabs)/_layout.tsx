@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router'
 import { Foundation, Ionicons } from '@expo/vector-icons'
 import { theme } from '@/theme'
-import { Avatar } from '@/components/avatar'
+import { Avatar } from '@/components/Avatar'
 
 export default function TabLayout() {
   return (

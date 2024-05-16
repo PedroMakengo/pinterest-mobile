@@ -9,7 +9,10 @@ export function Filter({
   ...rest
 }: FilterProps & PressableProps) {
   return (
-    <Pressable style={[styles.pressable, styles.pressableSelected]} {...rest}>
+    <Pressable
+      style={[styles.pressable, selected && styles.pressableSelected]}
+      {...rest}
+    >
       <Text style={styles.text}>{filter}</Text>
     </Pressable>
   )

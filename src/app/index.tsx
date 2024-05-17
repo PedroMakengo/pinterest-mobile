@@ -52,6 +52,9 @@ export default function Splash() {
   )
 }
 
+// abelmakengo1996@gmail.com
+// AbelMakengo@#07
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
